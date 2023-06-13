@@ -213,3 +213,8 @@ section#projects {
   padding: 10px;
   margin: 0;
 }
+@media screen and (max-width: 767px) {
+  .project {
+    width: 100%;
+  }
+}
