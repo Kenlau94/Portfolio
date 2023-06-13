@@ -44,5 +44,5 @@ Repository contains multiple descriptive commit messages.
 Repository contains a quality readme with description, screenshot, link to deployed application.-->
 
 link to github:https://github.com/Kenlau94
-portfolio.jpg
-portfolio2.jpg
+![screenshot of code](./assets/portfolio.jpg)
+![second screenshot](./assets/portfolio2.jpg)
