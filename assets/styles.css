@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(101, 73, 29);
+  color: black;
+  padding: 20px;
+  letter-spacing: 2px;
+  border: solid;
+  font-size: x-large;
+}
+.me {
+  height: 55px;
+
+  border: solid;
+  float: right;
+  margin: -15px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+.hero {
+  background-image: url(./hero.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+
+  height: 800px;
+}
+
+section {
+  padding: 50px;
+  display: block;
+  background-color: rgb(248, 242, 233);
+  border: solid;
+
+  margin: 20px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+form input {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: rgb(101, 73, 29);
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(101, 73, 29);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+  margin: 25px;
+}
+section#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 45%;
+  height: 200px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  border: solid;
+  font-size: 20px;
+}
+
+.project0 {
+  width: 100%;
+  /*background-image: url(./video_game-crash_bandicoot_4_it_s_about_time-490747.jpeg);*/
+  height: 500px;
+  cursor: pointer;
+  font-size: x-large;
+  color: white;
+  border-color: black;
+}
+
+/*
+
+.project1 {
+  background-image: url(./baby.jpg);
+  cursor: pointer;
+}
+
+.project2 {
+  background-image: url(./trophy.jpg);
+  cursor: pointer;
+}
+
+.project3 {
+  background-image: url(./relic2.jpg);
+  cursor: pointer;
+}
+
+.project4 {
+  background-image: url(./box.jpg);
+  cursor: pointer;
+}*/
+.project4:hover {
+  opacity: 0.5;
+}
+.project3:hover {
+  opacity: 0.5;
+}
+.project2:hover {
+  opacity: 0.5;
+}
+.project1:hover {
+  opacity: 0.5;
+}
+.project0:hover {
+  opacity: 0.5;
+}
+#resume {
+  text-decoration: none;
+  color: black;
+  background-image: url(./resume4.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project.project0 img {
+  height: 500px;
+  width: 100%;
+}
+.project.project1 img {
+  height: 200px;
+  width: 100%;
+  position: static;
+}
+.project.project2 img {
+  height: 200px;
+  width: 100%;
+  position: static;
+}
+.project.project3 img {
+  height: 200px;
+  width: 100%;
+  position: static;
+}
+.project.project4 img {
+  height: 200px;
+  width: 100%;
+  position: static;
+}
