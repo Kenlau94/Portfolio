@@ -1,5 +1,5 @@
 Personal Portfolio
-This week we had to create a personal profile and upload it to github. Our portfolio is an extension of ourselves and represents what we can do. Still familiarizing myself with css and html format, this took me a couple days to complete, but I am quite proud of what I came up with. First, I began with the basic html layout and then adding sections and content. Linking the css page to the html, I began to add background pictures to the sections and editted the visual layouts of the html. Whenever I would get stuck, I went back into previous assignments to compare with my current work. The only thing that took me a while to do was to link the github pages to the images. I followed the criteria listed below:
+This week we had to create a personal profile and upload it to github. Our portfolio is an extension of ourselves and represents what we can do. Still familiarizing myself with css and html format, this took me a couple days to complete, but I am quite proud of what I came up with. First, I began with the basic html layout and then adding sections and content. Linking the css page to the html, I began to add background pictures to the sections and editted the visual layouts of the html. Whenever I would get stuck, I went back into previous assignments to compare with my current work. Styling the html sheet was probably the most challenging, but most rewarding. The only thing that took me a while to do was to link the github pages to the images. I plugged in an image as a background image via css, which led to an issue since I could not link my github pages through css. Since I do not have any projects to have on my portfolio, I linked the images to my github and placeholders for pictures via aproval. The large picture is my first initial project which was my prework project. This is the criteria to follow:
 
 <!--GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -44,4 +44,5 @@ Repository contains multiple descriptive commit messages.
 Repository contains a quality readme with description, screenshot, link to deployed application.-->
 
 link to github:https://github.com/Kenlau94
-link to
+portfolio.jpg
+portfolio2.jpg

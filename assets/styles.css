@@ -104,15 +104,16 @@ section#projects {
 
 .project0 {
   width: 100%;
+  /*no insert pic via css.*/
   /*background-image: url(./video_game-crash_bandicoot_4_it_s_about_time-490747.jpeg);*/
   height: 500px;
   cursor: pointer;
   font-size: x-large;
-  color: white;
+  color: black;
   border-color: black;
 }
 
-/*
+/*no insert pic via css.  Too many problems
 
 .project1 {
   background-image: url(./baby.jpg);
@@ -133,6 +134,10 @@ section#projects {
   background-image: url(./box.jpg);
   cursor: pointer;
 }*/
+.project:hover {
+  opacity: 0.5;
+}
+/*pre consolidation
 .project4:hover {
   opacity: 0.5;
 }
@@ -147,9 +152,8 @@ section#projects {
 }
 .project0:hover {
   opacity: 0.5;
-}
+}*/
 #resume {
-  text-decoration: none;
   color: black;
   background-image: url(./resume4.jpg);
   display: flex;
@@ -163,6 +167,16 @@ section#projects {
   justify-content: center;
   align-items: center;
 }
+.project img {
+  height: 200px;
+  width: 100%;
+  position: static;
+}
+
+.project.project0 img {
+  height: 500px;
+}
+/*pre consolidation
 .project.project0 img {
   height: 500px;
   width: 100%;
@@ -186,4 +200,16 @@ section#projects {
   height: 200px;
   width: 100%;
   position: static;
+}*/
+.project .project-image h3,
+.project .project-image h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin: 0;
 }
